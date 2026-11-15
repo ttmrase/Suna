@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sand">#E6CFA0</color>
+    <color name="sand_damp">#B99664</color>
+    <color name="water">#3D9DB8</color>
+    <color name="water_light">#A9DDE6</color>
+</resources>

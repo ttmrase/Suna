@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A stream winding down a beach into the sea. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- sea along the bottom, with its damp shoreline -->
+    <path
+        android:fillColor="@color/sand_damp"
+        android:pathData="M0,74 C22,68 38,71 54,74 C72,77 88,72 108,69 L108,108 L0,108 Z" />
+    <path
+        android:fillColor="@color/water"
+        android:pathData="M0,78 C22,72 38,75 54,78 C72,81 88,76 108,73 L108,108 L0,108 Z" />
+    <!-- damp banks, then the stream itself -->
+    <path
+        android:pathData="M56,22 C38,32 72,44 56,56 C46,63 50,71 54,79"
+        android:strokeColor="@color/sand_damp"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="13" />
+    <path
+        android:pathData="M56,22 C38,32 72,44 56,56 C46,63 50,71 54,80"
+        android:strokeColor="@color/water"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="8" />
+    <path
+        android:pathData="M55,25 C42,33 68,44 55,55"
+        android:strokeColor="@color/water_light"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.6" />
+</vector>
